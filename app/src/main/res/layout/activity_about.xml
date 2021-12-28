@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#22FF"
+    android:padding="20dp"
+    tools:context=".About"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView_logo"
+        android:layout_width="317dp"
+        android:layout_height="300dp"
+        android:background="@android:color/white"
+        android:padding="20dp"
+        android:src="@drawable/udinus" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:gravity="bottom">
+
+        <TextView
+            android:id="@+id/textabout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Halo salam kenal nama saya Nur Rifqah Fakhirah dengan NIM A11.2019.12178. Ini adalah aplikasi tebak buah untuk memenuhi tugas project akhir matkul Pemrograman Perangkat Bergerak."
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:typeface="monospace"
+            android:textColor="@color/design_default_color_primary_dark"/>
+    </LinearLayout>
+</LinearLayout>
